@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.container {
+    height: 50vh;
+    width: 100vh;
+    border: none;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    box-shadow: inset 15px 0 25px black, inset -15px 0 25px black;
+    background-color: rgb(232, 198, 147);
+    border-radius: 2vh;
+}
+
+.slide {
+    height: 20vh;
+    width: 40vh;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16vh;
+    border-radius: 3vh;
+}
+
+.nav-button {
+    display: flex;
+    gap: 10vh;
+}
+
+.nav-button button {
+    height: 5vh;
+    width: 10vh;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 85);
+    font-size: 3vh;
+    font-weight: bolder;
+    box-shadow: 0 10px 10px black;
+}
+
+.nav-button button:active {
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+#slide-1 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(4, 0, 118), rgb(255, 255, 255));
+}
+
+#slide-2 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(157, 11, 108), rgb(255, 255, 255));
+}
+
+#slide-3 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(146, 162, 1), rgb(255, 255, 255));
+}
+
+#slide-4 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(219, 99, 1), rgb(255, 255, 255));
+}
+
+#slide-5 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(1, 230, 255), rgb(255, 255, 255));
+}
+
+#slide-6 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 34, 0), rgb(255, 255, 255));
+}
+
+#slide-7 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(12, 121, 0), rgb(255, 255, 255));
+}
+
+#slide-8 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 64, 255), rgb(255, 255, 255));
+}
+
+#slide-9 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(159, 0, 0), rgb(255, 255, 255));
+}
+
+#slide-10 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(132, 0, 255), rgb(255, 255, 255));
+}
